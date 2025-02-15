@@ -14,7 +14,7 @@
 
 #define BUILD_DATE __DATE__
 #define BUILD_TIME __TIME__
-#define KERNL_VERS "v0.0.2502150" // Version format: v[VERSION].[PACK].YYMMDDF
-#define KERNL_BUID 1
+#define KERNL_VERS "v0.0.2502151" // Version format: v[VERSION].[PACK].YYMMDDF
+#define KERNL_BUID 2
 
 #endif // INCLUDE_INFO_H_
