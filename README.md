@@ -8,7 +8,7 @@
 
 ## 编译要求
 
-1. **操作系统**：必须是Linux环境，例如Debian、Ubuntu，或者WSL。
+1. **操作系统**：必须是Linux环境，例如Debian、Ubuntu，或者WSL、Cygwin。
 2. **工具安装**：必须安装好gcc、make和xorriso工具。如果需要测试，请安装qemu虚拟机。
 
 ## 编译指南
@@ -19,7 +19,7 @@
 4. **清理与测试**：
    - 输入“make clean”清理所有中间文件及引导和内核。
    - 输入“make run”即可通过qemu测试。
-   - “make run-db”可以调出调试（控制台显示汇编代码）。
+   - “make run-db”可以调出调试（控制台显示汇编调试代码）。
 
 # 贡献者
 
